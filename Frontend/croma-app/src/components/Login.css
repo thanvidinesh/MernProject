@@ -1,0 +1,112 @@
+body{
+  margin:0;
+  padding:0;
+  background:black;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.overlay{
+  height:100vh;
+  width:100%;
+  background:rgba(0,0,0,0.5);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.popup{
+  width:380px;
+  background:black;
+  padding:30px;
+  border-radius:10px;
+  text-align:center;
+  position:relative;
+}
+
+.tabs{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  color:white;
+  margin-bottom:15px;
+}
+
+.tabs span{
+  cursor:pointer;
+}
+
+.or{
+  opacity:0.6;
+}
+
+.subtitle{
+  color:white;
+  font-size:14px;
+  margin-bottom:15px;
+}
+
+.input-box{
+  margin-bottom:15px;
+}
+
+.input-box input{
+  width:100%;
+  padding:12px;
+  border-radius:6px;
+  border:1px solid #ccc;
+  outline:none;
+  font-size:14px;
+}
+
+.input-box input:focus{
+  border-color:#00e6c3;
+}
+
+.keep{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  color:white;
+  font-size:14px;
+  margin-bottom:10px;
+}
+
+.terms{
+  color:white;
+  font-size:12px;
+  margin-bottom:20px;
+}
+
+.terms span{
+  color:#00e6c3;
+  cursor:pointer;
+}
+
+.submit-btn{
+  width:100%;
+  padding:12px;
+  border:none;
+  border-radius:6px;
+  background:#00e6c3;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.submit-btn:hover{
+  opacity:0.9;
+}
+.close-btn{
+  position:absolute;
+  top:10px;
+  right:12px;
+  border:none;
+  background:none;
+  font-size:22px;
+  color:white;
+  cursor:pointer;
+}
+h2{
+  color:white;
+  margin-bottom:20px;
+}
