@@ -10,7 +10,7 @@ import ManageProducts from "./components/ManageProducts";
 import EditProduct from "./components/EditProduct";
 import ProductDetails from "./components/ProductDetails";
 import Cart from "./components/Cart";
-import Checkout from "./components/checkout";
+import Checkout from "./components/Checkout";
 import Payment from "./components/Payment";
 import ManageOrders from "./components/ManageOrders";
 import Search from "./components/Search";
